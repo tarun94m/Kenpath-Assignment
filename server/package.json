@@ -1,0 +1,15 @@
+{
+  "name": "sandhya-server",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "review": "node review.js",
+    "smoke": "node smoke-test.mjs",
+    "test": "node run-tests.mjs",
+    "test:only": "node --test test/api.test.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
